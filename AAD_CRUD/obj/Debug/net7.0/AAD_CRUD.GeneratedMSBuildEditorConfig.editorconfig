@@ -9,59 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AAD_CRUD
 build_property.RootNamespace = AAD_CRUD
-build_property.ProjectDir = C:\Users\hugos\source\repos\AAD_CRUD\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Thiago Yabuki\Documents\IPCA\Armazenamento e Acesso a Dados\Projeto\AAD_CRUD\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hugos\source\repos\AAD_CRUD
+build_property.MSBuildProjectDirectory = C:\Users\Thiago Yabuki\Documents\IPCA\Armazenamento e Acesso a Dados\Projeto\AAD_CRUD
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Error.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Funcionarios/Contact.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Funcionarios/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXENvbnRhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Funcionarios/Create.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Funcionarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Funcionarios/Delete.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Funcionarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Funcionarios/Edit.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Funcionarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Funcionarios/Index.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Funcionarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Index.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Privacy.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/_ViewImports.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/_ViewStart.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hugos/source/repos/AAD_CRUD/Pages/Shared/_Layout.cshtml]
+[C:/Users/Thiago Yabuki/Documents/IPCA/Armazenamento e Acesso a Dados/Projeto/AAD_CRUD/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rz4dlgl08t

@@ -10491,19 +10491,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hugos\\.nuget\\packages\\": {}
+    "C:\\Users\\Thiago Yabuki\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugos\\source\\repos\\AAD_CRUD\\AAD_CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Thiago Yabuki\\Documents\\IPCA\\Armazenamento e Acesso a Dados\\Projeto\\AAD_CRUD\\AAD_CRUD.csproj",
       "projectName": "AAD_CRUD",
-      "projectPath": "C:\\Users\\hugos\\source\\repos\\AAD_CRUD\\AAD_CRUD.csproj",
-      "packagesPath": "C:\\Users\\hugos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hugos\\source\\repos\\AAD_CRUD\\obj\\",
+      "projectPath": "C:\\Users\\Thiago Yabuki\\Documents\\IPCA\\Armazenamento e Acesso a Dados\\Projeto\\AAD_CRUD\\AAD_CRUD.csproj",
+      "packagesPath": "C:\\Users\\Thiago Yabuki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thiago Yabuki\\Documents\\IPCA\\Armazenamento e Acesso a Dados\\Projeto\\AAD_CRUD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\hugos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thiago Yabuki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10511,6 +10516,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10557,7 +10563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
