@@ -17,9 +17,9 @@ namespace AAD_CRUD.Pages.Funcionarios
 
 			try
 			{
-				string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
-				using (SqlConnection connection = new SqlConnection(connectionstring))
-				{
+				//string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+				using (var connection = Dbconn.DBConnection())
+                {
 					connection.Open();
 					String sql = "Select [NIF],[Nome],[Apelido],[DataNasc],[DataAdmissao],[Morada],[Email],[CPCP],[Localidade], [Contacto], [TipoContactoTCID] FROM [AAD].[dbo].[Funcionario] Join CP on Funcionario.CPCP = Cp.CP Join Contacto On Funcionario.NIF = Contacto.FuncionarioNIF Join TipoContacto on Contacto.TipoContactoTCID = TipoContacto.TCID WHERE NIF = @nif";
 					using (SqlCommand command = new SqlCommand(sql, connection))

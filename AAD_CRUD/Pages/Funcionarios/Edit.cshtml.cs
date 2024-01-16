@@ -80,9 +80,9 @@ namespace AAD_CRUD.Pages.Funcionarios
 
 			try
 			{
-				string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
-				using (SqlConnection connection = new SqlConnection(connectionstring))
-				{
+				//string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+				using (var connection = Dbconn.DBConnection())
+                {
 					connection.Open();
 					String sql = "UPDATE Funcionario " +
 					"SET NIF=@NIF2, Nome=@nome, Apelido=@apelido, DataNasc=@dataNasc, DataAdmissao=@dataAdmissao, Morada=@morada, Email=@email, CPCP=@cpcp " +
