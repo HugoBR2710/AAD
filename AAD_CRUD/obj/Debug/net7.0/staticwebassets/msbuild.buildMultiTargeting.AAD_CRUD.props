@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AAD_CRUD.props" />
+</Project>

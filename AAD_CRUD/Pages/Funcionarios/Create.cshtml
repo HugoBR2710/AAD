@@ -1,0 +1,90 @@
+﻿@page
+@model AAD_CRUD.Pages.Funcionarios.CreateModel
+@{
+}
+
+<br>
+<h2>Novo Funcionário</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		<strong>@Model.errorMessage</strong>
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
+
+
+
+
+<form method="POST">
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">NIF</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="nif" value="@Model.funcionario.NIF" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Nome</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="nome" value="@Model.funcionario.Nome" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Apelido</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="apelido" value="@Model.funcionario.Apelido" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Data de Nascimento</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="dataNasc" value="@Model.funcionario.DataNasc" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Data de Admissão</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="dataAdmissao" value="@Model.funcionario.DataAdmissao" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Morada</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="morada" value="@Model.funcionario.Morada" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Email</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="email" value="@Model.funcionario.Email" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Tipo de contacto (1-Telemóvel/2-Telefone/3-Email)</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="tcid" value="@Model.contactos.TipoContactoTCID" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Contacto</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="contacto" value="@Model.contactos.Contactos" />
+		</div>
+	</div>
+	<div class="row mb-3">
+		<label class="col-sm-3 col-form-label">Código Postal (Apenas os primeiros 4 Digitos)</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name="cpcp" value="@Model.funcionario.CPCP" />
+		</div>
+	</div>
+	</div>
+	<div class="row mb-3">
+		<div class="offset-sm-3 col-sm-3 d-grid">
+			<button type="submit" class="btn btn-primary">Submeter</button>
+		</div>
+		<div class="offset-sm-3 col-sm-3 d-grid">
+			<a class="btn btn-outline-primary" href="/" role="button">Cancelar</a>
+		</div>
+	</div>
+</form>
