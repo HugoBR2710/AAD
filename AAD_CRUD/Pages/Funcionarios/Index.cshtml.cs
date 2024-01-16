@@ -13,8 +13,8 @@ namespace AAD_CRUD.Pages.Funcionarios
         {
             try
             {
-                string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
-                using (SqlConnection connection = new SqlConnection(connectionstring))
+                //string connectionstring = "Data Source=HUGO;Initial Catalog=AAD;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+                using (var connection = Dbconn.DBConnection())
                 {
                     connection.Open();
                     String sql = "SELECT TOP (1000) [NIF],[Nome],[Apelido],[DataNasc],[DataAdmissao],[Morada],[Email],[CPCP],[Localidade] FROM [AAD].[dbo].[Funcionario] Join CP on Funcionario.CPCP = Cp.CP";
