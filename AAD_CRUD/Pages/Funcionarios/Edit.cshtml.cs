@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AAD_CRUD.Models;
+using System.Data.SqlTypes;
 using Microsoft.Data.SqlClient;
 
 namespace AAD_CRUD.Pages.Funcionarios
