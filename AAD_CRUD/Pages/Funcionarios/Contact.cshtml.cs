@@ -22,7 +22,8 @@ namespace AAD_CRUD.Pages.Funcionarios
                 {
 					connection.Open();
 					String sql = "SELECT [Nome], [Contacto], [DescTC]" +
-						"FROM [AAD].[dbo].[Contacto] Join TipoContacto on Contacto.TipoContactoTCID = TipoContacto.TCID Join Funcionario on Contacto.FuncionarioNIF = Funcionario.NIF WHERE Funcionario.NIF = @nif";
+						"FROM [AAD].[dbo].[Contacto] Join TipoContacto on Contacto.TipoContactoTCID = TipoContacto.TCID Join " +
+						"Funcionario on Contacto.FuncionarioNIF = Funcionario.NIF WHERE Funcionario.NIF = @nif";
 					using (SqlCommand command = new SqlCommand(sql, connection))
 					{
 						command.Parameters.AddWithValue("@nif", Nif);

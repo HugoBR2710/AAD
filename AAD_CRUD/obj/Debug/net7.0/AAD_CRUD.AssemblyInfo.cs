@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AAD_CRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f8d831cfb6d31a707ed6bb65b06c7f479117fd")]
->>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("AAD_CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AAD_CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
